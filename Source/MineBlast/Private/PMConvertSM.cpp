@@ -7,20 +7,6 @@
 #include "Engine/StaticMesh.h"
 #include "RawMesh/Public/RawMesh.h"
 /*在项目.build.cs下添加"RawMesh"解决头文件找不到路径和编译错误问题*/
-
-#include "Modules/ModuleManager.h"
-#include "Misc/PackageName.h"
-#include "Widgets/SNullWidget.h"
-#include "Widgets/DeclarativeSyntaxSupport.h"
-#include "Application/SlateWindowHelper.h"
-#include "IAssetTools.h"
-#include "AssetToolsModule.h"
-#include "DetailLayoutBuilder.h"
-#include "DetailWidgetRow.h"
-#include "DetailCategoryBuilder.h"
-#include "IDetailsView.h"
-
-#include "Dialogs/DlgPickAssetPath.h"
 #include "AssetRegistryModule.h"
 
 //改写自引擎源代码中的转化静态网格体按钮OnClickConvertToStaticMesh
