@@ -14,10 +14,10 @@
 ![UEDrawMeshes](https://github.com/ColorGalaxy/UE4-Batch-Draw-Mesh-And-OpenGL-Get-Model-Data/raw/master/Screenshot/UEDrawMeshes.png)<br>
 ### 文件/文件夹说明
 * Content
-  * Blueprint———绘制单个/多个Mesh、批量添加凸包碰撞的蓝图<br>
-  * Data————————存放单个/多个Mesh的顶点与面索引的数据表格、结构体<br>
-  * Mesh————————绘制模型资源保存路径，可在PMConvertSM.cpp中配置<br>
-* Source————————UE4 C++ ProceduralMesh转换为StaticMesh代码<br>
+  * Blueprint　　　绘制单个/多个Mesh、批量添加凸包碰撞的蓝图<br>
+  * Data　　　　　　存放单个/多个Mesh的顶点与面索引的数据表格、结构体<br>
+  * Mesh　　　　　　绘制模型资源保存路径，可在PMConvertSM.cpp中配置<br>
+* Source　　　　　　UE4 C++ ProceduralMesh转换为StaticMesh代码<br>
 # VS项目部分使用说明
 　详细说明：[【OpenGL C++ UE4】获取模型顶点及面索引数据，并优化存储结构供UE4绘制](https://blog.csdn.net/qq_31788759/article/details/104476953)<br>
 　在`ModelLoad-UseAssimp.cpp`中`"Model/Teapot.obj"`配置读取模型的路径，`#define SHOW_WIREFRAME`配置是否开启模型线框显示。<br>
@@ -25,14 +25,14 @@
 ### 文件/文件夹说明<br>
 * VSProject_GetMeshInfoCSV<br>
   * GetMeshInfo<br>
-    * Config———————————需要的OpenGL第三方库环境，GLFW、GLAD、ASSIMP、GLM、stb_image<br>
-    * MeshData—————————输出的顶点与面索引CSV表格，用于导入UE4<br>
-    * Model————————————存放待读取obj模型，这里有一个三棱锥和茶壶作示例<br>
-    * ShaderSource—————OpenGL渲染模型的顶点与片段着色器<br>
-    * Camera.h—————————窗口摄像机控制逻辑<br>
-    * Mesh.h———————————处理网格信息，网格代表的是单个的可绘制实体<br>
-    * Model.h——————————处理模型信息，模型包含多个网格，甚至是多个物体<br>
-    * Shader.h—————————编译着色器项目<br>
-    * MeshInfoCSV.h————重复顶点数据去除、索引更新、打印适用于导入UE4的CSV表格<br>
-    * ModelLoad-UseAssimp.cpp————main函数所在，管理整个项目各个模块<br>
+    * Config　　　　　　需要的OpenGL第三方库环境，GLFW、GLAD、ASSIMP、GLM、stb_image<br>
+    * MeshData　　　　　输出的顶点与面索引CSV表格，用于导入UE4<br>
+    * Model　　　　　　　存放待读取obj模型，这里有一个三棱锥和茶壶作示例<br>
+    * ShaderSource　　　OpenGL渲染模型的顶点与片段着色器<br>
+    * Camera.h　　　　　窗口摄像机控制逻辑<br>
+    * Mesh.h　　　　　　处理网格信息，网格代表的是单个的可绘制实体<br>
+    * Model.h　　　　　　处理模型信息，模型包含多个网格，甚至是多个物体<br>
+    * Shader.h　　　　　编译着色器项目<br>
+    * MeshInfoCSV.h　　重复顶点数据去除、索引更新、打印适用于导入UE4的CSV表格<br>
+    * ModelLoad-UseAssimp.cpp　　　　　main函数所在，管理整个项目各个模块<br>
     
