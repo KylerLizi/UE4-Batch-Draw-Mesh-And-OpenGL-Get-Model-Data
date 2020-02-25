@@ -1,4 +1,5 @@
 # UE4-Batch-Draw-Mesh-And-OpenGL-Get-Model-Data
+## 2019.02.01-2019.06.01(毕设开发周期，期间还在忙国庆仿真)
 ![Draw9300Meshes](https://github.com/ColorGalaxy/UE4-Batch-Draw-Mesh-And-OpenGL-Get-Model-Data/raw/master/Screenshot/Draw9300Meshes.png)<br>
 　本人毕设题目是`基于UE4的矿山爆破仿真系统`。导师会提供给我矿山模型的`13万条顶点坐标与三角面索引数据集`，我使用该Demo在UE4中绘制了这9300个碎石组成了矿山模型。（画面简陋到现在的我无法直视，现在想想还是`Houdini`做比较适合）<br>
 # UE4部分使用说明
