@@ -14,10 +14,10 @@
 ![UEDrawMeshes](https://github.com/ColorGalaxy/UE4-Batch-Draw-Mesh-And-OpenGL-Get-Model-Data/raw/master/Screenshot/UEDrawMeshes.png)<br>
 ### 文件/文件夹说明
 * Content
-  * Blueprint　　　绘制单个/多个Mesh、批量添加凸包碰撞的蓝图<br>
+  * Blueprint　　　　绘制单个/多个Mesh、批量添加凸包碰撞的蓝图<br>
   * Data　　　　　　存放单个/多个Mesh的顶点与面索引的数据表格、结构体<br>
   * Mesh　　　　　　绘制模型资源保存路径，可在PMConvertSM.cpp中配置<br>
-* Source　　　　　　UE4 C++ ProceduralMesh转换为StaticMesh代码<br>
+* Source　　　　　　　UE4 C++ ProceduralMesh转换为StaticMesh代码<br>
 # VS项目部分使用说明
 　详细说明：[【OpenGL C++ UE4】获取模型顶点及面索引数据，并优化存储结构供UE4绘制](https://blog.csdn.net/qq_31788759/article/details/104476953)<br>
 　在`ModelLoad-UseAssimp.cpp`中`"Model/Teapot.obj"`配置读取模型的路径，`#define SHOW_WIREFRAME`配置是否开启模型线框显示。<br>
