@@ -4,9 +4,9 @@
 Binaries/
 Intermediate/
 Saved/
-MineBlast.sln
+/MineBlast.sln
 
-VSProject_GetMeshInfoCSV/GetMeshInfo/Debug/
-VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.exe
-VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.ilk
-VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.pdb
+/VSProject_GetMeshInfoCSV/GetMeshInfo/Debug/
+/VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.exe
+/VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.ilk
+/VSProject_GetMeshInfoCSV/Debug/GetMeshInfo.pdb
